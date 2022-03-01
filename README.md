@@ -92,6 +92,7 @@ The script is tested with Ubuntu 20.04 and `poetry` 0.1.0.
 <!-- USAGE EXAMPLES -->
 ## Usage
 * Find your Instagram credentials and replace `your-username` and `your-password` in the instagram-scraper.py with your own login data
+* The script is tested with public Instagram accounts that belong to news providers. It might behave differently with private accounts.
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -111,7 +112,7 @@ ROADMAP
 
 * [Code for iteratively getting Intagram posts](https://medium.com/mlearning-ai/building-a-instagram-scraper-in-3-minutes-a6aac0a2512f)
 * [Code for getting the HTML tags that contain user and text data on Instagram](https://medium.com/mlearning-ai/building-a-instagram-scraper-in-3-minutes-a6aac0a2512f)
-* []()
+* [Code for Instagram login](https://stackoverflow.com/questions/62018006/how-to-locate-the-username-and-password-field-within-instagram-login-page-using)
 
 
 
