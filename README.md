@@ -79,7 +79,11 @@ The script is tested with Ubuntu 20.04 and `poetry` 0.1.0.
 * The script is tested with public Instagram accounts that belong to news providers. It might behave differently with private accounts
 * Replace the path`/home/username/projects/myproject/chromedriver` (that is the `executable_path` to the web driver) with your own local path inside your Python project
 * You can use the two Instagram news post examples already included or add your own. For each post, two files will be created. One that contains the page source in `txt` format and a second one that contains the parsed content (user-text pairs) in `json` format. The first user-text pair is the original post and the next ones are the replies, in the order that Instagram provides them.
-* Run the script by running `python instagram-scraper.py` in a command line
+* Run the script by running `python instagram-scraper.py` in a command line.
+* When the script is finished you will see these two dictionaries:
+
+![User-text pairs](https://github.com/Konstantina-Lazaridou/instagram-scraper/blob/main/Screenshot%20from%202022-03-01%2019-43-25.jpg?raw=true)
+
 
 ## Tentative Roadmap
 
