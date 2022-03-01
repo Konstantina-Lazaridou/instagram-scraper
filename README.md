@@ -96,6 +96,7 @@ The script is tested with Ubuntu 20.04 and `poetry` 0.1.0.
   * The tags changed slightly by Instagram. This script is up-to-date and built with the latest ones.
 * [Code example for Instagram login](https://stackoverflow.com/questions/62018006/how-to-locate-the-username-and-password-field-within-instagram-login-page-using)
   * Added timers in code to make it work and had to accept the cookies so the script won't break
+* Using similar README template to [this](https://github.com/dmrwebdev/README-template/blob/master/README.md)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
