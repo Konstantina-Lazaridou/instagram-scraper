@@ -92,7 +92,8 @@ The script is tested with Ubuntu 20.04 and `poetry` 0.1.0.
 <!-- USAGE EXAMPLES -->
 ## Usage
 * Find your Instagram credentials and replace `your-username` and `your-password` in the instagram-scraper.py with your own login data
-* The script is tested with public Instagram accounts that belong to news providers. It might behave differently with private accounts.
+* The script is tested with public Instagram accounts that belong to news providers. It might behave differently with private accounts
+* Replace the path`/home/username/projects/myproject/chromedriver` (that is the `executable_path` to the web driver) with your own local path inside your Python project
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
