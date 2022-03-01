@@ -112,9 +112,10 @@ ROADMAP
 ## Acknowledgments
 
 * [Code for iteratively getting Intagram posts](https://medium.com/mlearning-ai/building-a-instagram-scraper-in-3-minutes-a6aac0a2512f)
-* [Code for getting the HTML tags that contain user and text data on Instagram](https://medium.com/mlearning-ai/building-a-instagram-scraper-in-3-minutes-a6aac0a2512f)
+* [Code example for getting the HTML tags that contain user and text data on Instagram](https://medium.com/mlearning-ai/building-a-instagram-scraper-in-3-minutes-a6aac0a2512f)
   * The tags changed slightly by Instagram. The script is built with the latest ones.
-* [Code for Instagram login](https://stackoverflow.com/questions/62018006/how-to-locate-the-username-and-password-field-within-instagram-login-page-using)
+* [Code example for Instagram login](https://stackoverflow.com/questions/62018006/how-to-locate-the-username-and-password-field-within-instagram-login-page-using)
+  * Added timers in code to make it work and had to accept the cookies so the script won't break
 
 
 
