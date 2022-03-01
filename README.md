@@ -78,6 +78,8 @@ The script is tested with Ubuntu 20.04 and `poetry` 0.1.0.
 * Find your Instagram credentials and replace `your-username` and `your-password` in the instagram-scraper.py with your own login data
 * The script is tested with public Instagram accounts that belong to news providers. It might behave differently with private accounts
 * Replace the path`/home/username/projects/myproject/chromedriver` (that is the `executable_path` to the web driver) with your own local path inside your Python project
+* You can use the two Instagram news post examples already included or add your own. For each post, two files will be created. One that contains the page source in `txt` format and a second one that contains the parsed content (user-text pairs) in `json` format.
+* Run the script by running `python instagram-scraper.py`
 
 ## Tentative Roadmap
 
@@ -89,9 +91,9 @@ The script is tested with Ubuntu 20.04 and `poetry` 0.1.0.
 
 ## Acknowledgments
 
-* [Code for iteratively getting Intagram posts](https://medium.com/mlearning-ai/building-a-instagram-scraper-in-3-minutes-a6aac0a2512f)
+* [Code for iteratively getting replies under Instagram posts](https://medium.com/mlearning-ai/building-a-instagram-scraper-in-3-minutes-a6aac0a2512f)
 * [Code example for getting the HTML tags that contain user and text data on Instagram](https://medium.com/mlearning-ai/building-a-instagram-scraper-in-3-minutes-a6aac0a2512f)
-  * The tags changed slightly by Instagram. The script is built with the latest ones.
+  * The tags changed slightly by Instagram. This script is up-to-date and built with the latest ones.
 * [Code example for Instagram login](https://stackoverflow.com/questions/62018006/how-to-locate-the-username-and-password-field-within-instagram-login-page-using)
   * Added timers in code to make it work and had to accept the cookies so the script won't break
 
