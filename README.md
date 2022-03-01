@@ -2,19 +2,12 @@
 
 [![Contributors][contributors-shield]][contributors-url]
 
-<!-- Buttons
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
--->
-
-
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
+  <a href="https://github.com/Konstantina-Lazaridou/instagram-scraper">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1024px-Instagram_icon.png" alt="Logo" width="150" height="150">
+  </a>
 <h3 align="center">Instagram scraper</h3>
 
   <p align="center">
@@ -55,18 +48,11 @@
 
 Downloading and parsing Instagram posts with Python.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 ### Built With
 
 * Python
 * Selenium
 * ChromeDriver
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- ## Getting Started
-GETTING STARTED -->
 
 ### Prerequisites
 
@@ -78,7 +64,6 @@ Things you need to use the software.
 
 The script is tested with Ubuntu 20.04 and `poetry` 0.1.0. 
 
-
 ### Installation
 
 * Create a virtual environment for your project where Selenium is installed
@@ -89,19 +74,12 @@ The script is tested with Ubuntu 20.04 and `poetry` 0.1.0.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-<!-- USAGE EXAMPLES -->
 ## Usage
 * Find your Instagram credentials and replace `your-username` and `your-password` in the instagram-scraper.py with your own login data
 * The script is tested with public Instagram accounts that belong to news providers. It might behave differently with private accounts
 * Replace the path`/home/username/projects/myproject/chromedriver` (that is the `executable_path` to the web driver) with your own local path inside your Python project
 
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-ROADMAP
-## Tentative roadmap
+## Tentative Roadmap
 
 - Download multiple posts about certain event (posts by news providers about Russia's invasion of Ukraine in this case)
 - Translate and clean posts
@@ -118,6 +96,7 @@ ROADMAP
   * Added timers in code to make it work and had to accept the cookies so the script won't break
 
 
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
