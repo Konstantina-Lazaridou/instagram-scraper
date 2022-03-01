@@ -85,13 +85,15 @@ The script is tested with Ubuntu 20.04 and `poetry` 0.1.0.
 ![User-text pairs](https://github.com/Konstantina-Lazaridou/instagram-scraper/blob/main/Screenshot%20from%202022-03-01%2019-43-25.jpg?raw=true)
 
 
-## Tentative Roadmap
+<!-- ## Tentative Roadmap
 
 - Download multiple posts about certain event (posts by news providers about Russia's invasion of Ukraine in this case)
 - Translate and clean posts
 - Analyze and find patterns in the posts
   - TBD
 - Add functionality for nested replies
+
+-->
 
 ## Acknowledgments
 
