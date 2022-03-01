@@ -107,12 +107,6 @@ ROADMAP
   - TBD
 - Add functionality for nested replies
 
-<!--See the [open issues](https://github.com/KonstantinaLazaridou/toxic-comments-bias-kaggle/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
--->
-
 ## Acknowledgments
 
 * [Code for iteratively getting Intagram posts](https://medium.com/mlearning-ai/building-a-instagram-scraper-in-3-minutes-a6aac0a2512f)
@@ -124,8 +118,8 @@ ROADMAP
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/KonstantinaLazaridou/toxic-comments-bias-kaggle.svg?style=for-the-badge
-[contributors-url]: https://github.com/KonstantinaLazaridou/toxic-comments-bias-kaggle/graphs/contributors
+[contributors-shield]: https://img.shields.io/github/contributors/Konstantina-Lazaridou/instagram-scraper.svg?style=for-the-badge
+[contributors-url]: https://github.com/Konstantina-Lazaridou/instagram-scraper/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
 [forks-url]: https://github.com/github_username/repo_name/network/members
 [stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
