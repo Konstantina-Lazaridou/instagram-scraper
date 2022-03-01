@@ -83,8 +83,8 @@ The script is tested with Ubuntu 20.04 and `poetry` 0.1.0.
 
 * Create a virtual environment for your project where Selenium is installed
 * Download ChromeDriver according to your Google Chrome version from here: https://chromedriver.chromium.org/downloads
-* If you get a `Permission denied` error when tring to access the `executable_path` of your driver, run `chmod +x chromedriver` in your command line. This error would happen in line `driver= webdriver.Chrome('/home/username/projects/myproject/chromedriver')`.
 * Copy the `chromedriver` file to your project directory
+* If you get a `Permission denied` error when tring to access the `executable_path` of your driver, run `chmod +x chromedriver` in your command line. This error would happen in line ```driver= webdriver.Chrome('/home/username/projects/myproject/chromedriver')```.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
