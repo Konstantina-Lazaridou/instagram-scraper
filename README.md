@@ -46,7 +46,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This project contains Python code that logs in to an Instagram account, iterates over a given list of urls of public Instagram posts (it is not necessary that the main account follows these public users), downloads the content of the posts (original user and posted text, plus the names of the users and their text in the replies), parses this information into a Python dictionary, writes it in a Json file and also writes the HTML of each url in another txt file.
+This project contains Python code that logs in to an Instagram account, iterates over a given list of urls of public Instagram posts (it is not necessary that the main account follows these public users), downloads the content of the posts (original user and posted text, plus the names of the users and their text in the replies), parses this information into a Python dictionary, writes it in a Json file and also writes the HTML of each url in another txt file. It also contains a preprocessing script that reads the Instagram posts, demojifies them and cleans their hashtags.
 
 ### Built With
 
