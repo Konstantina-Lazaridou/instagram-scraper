@@ -97,12 +97,17 @@ The script is tested with Ubuntu 20.04 and `poetry` 0.1.0.
 
 ## Acknowledgments
 
+### Scraping
 * [Code for iteratively getting replies under Instagram posts](https://medium.com/mlearning-ai/building-a-instagram-scraper-in-3-minutes-a6aac0a2512f)
 * [Code example for getting the HTML tags that contain user and text data on Instagram](https://medium.com/mlearning-ai/building-a-instagram-scraper-in-3-minutes-a6aac0a2512f)
   * The tags changed slightly by Instagram. This script is up-to-date and built with the latest ones.
 * [Code example for Instagram login](https://stackoverflow.com/questions/62018006/how-to-locate-the-username-and-password-field-within-instagram-login-page-using)
   * Added timers in code to make it work and had to accept the cookies so the script won't break
 * Using similar README template to [this](https://github.com/dmrwebdev/README-template/blob/master/README.md)
+
+### Preprocessing
+* Unfortunately the available emoji libraries on Github either didn't work well with the `utf-16` codes from Instagram or their emoji databases didn't contain the emojis I tested them with. They also didn't contain the emojis that consist of combinations of codes.
+* In order to parse these emojis properly I used the accepted answer [here](https://stackoverflow.com/questions/52179465/best-and-clean-way-to-encode-emojis-python-from-text-file) in combination with [this one](https://stackoverflow.com/questions/46154561/remove-zero-width-space-unicode-character-from-python-string) and [this one](https://stackoverflow.com/questions/47716217/converting-emojis-to-unicode-and-vice-versa-in-python-3)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
