@@ -76,7 +76,7 @@ The script is tested with Ubuntu 20.04 and `poetry` 0.1.0.
 
 ## Usage
 * Find your Instagram credentials and replace `your-username` and `your-password` in the instagram-scraper.py with your own login data
-* The script is tested with public Instagram accounts that belong to news providers. It might behave differently with private accounts
+* The script (`instagram-scraper.py`) is tested with public Instagram accounts that belong to news providers. It might behave differently with private accounts
 * Replace the path`/home/username/projects/myproject/chromedriver` (that is the `executable_path` to the web driver) with your own local path inside your Python project
 * You can use the two Instagram news post examples already included or add your own. For each post, two files will be created. One that contains the page source in `txt` format and a second one that contains the parsed content (user-text pairs) in `json` format. The first user-text pair is the original post and the next ones are the replies, in the order that Instagram provides them.
 * Run the script by running `python instagram-scraper.py` in a command line.
@@ -84,6 +84,10 @@ The script is tested with Ubuntu 20.04 and `poetry` 0.1.0.
 
 ![User-text pairs](https://github.com/Konstantina-Lazaridou/instagram-scraper/blob/main/Screenshot%20from%202022-03-01%2019-43-25.jpg?raw=true)
 
+* In order to process (the English) posts, you can run `process.py` for the files you downloaded before. They should be in user-text pairs in `json` format.
+* Replace the directory name (`/translated_data`) with your local one where the English posts are, and also `/clean_data` with where you want to save the preprocessed text.
+* In the header of `process.py` it is explained how the emojis are removed from the texts. No additional libraries are needed if you don't use `get_emoji_meaning`.
+* This script will remove emojis, new lines, will remove the `#` from the hashtags and simplify long hashtags without spaces, and will write the remaining non-empty posts in a new json file
 
 <!-- ## Tentative Roadmap
 
@@ -107,7 +111,7 @@ The script is tested with Ubuntu 20.04 and `poetry` 0.1.0.
 
 ### Preprocessing
 * Unfortunately the available emoji libraries on Github either didn't work well with the `utf-16` codes from Instagram or their emoji databases didn't contain the emojis I tested them with. They also didn't contain the emojis that consist of combinations of codes.
-* In order to parse these emojis properly I used the accepted answer [here](https://stackoverflow.com/questions/52179465/best-and-clean-way-to-encode-emojis-python-from-text-file) in combination with [this one](https://stackoverflow.com/questions/46154561/remove-zero-width-space-unicode-character-from-python-string) and [this one](https://stackoverflow.com/questions/47716217/converting-emojis-to-unicode-and-vice-versa-in-python-3)
+* In order to parse these emojis properly I used the accepted answer [here](https://stackoverflow.com/questions/52179465/best-and-clean-way-to-encode-emojis-python-from-text-file) in combination with [this one](https://stackoverflow.com/questions/46154561/remove-zero-width-space-unicode-character-from-python-string) and [this one](https://stackoverflow.com/questions/47716217/converting-emojis-to-unicode-and-vice-versa-in-python-3). After identifying them, I simply removed them from the text, but one could try to replace them with their meaning.
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
