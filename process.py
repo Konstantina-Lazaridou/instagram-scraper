@@ -10,6 +10,7 @@ import unicodedata as ud
 # It then removes '\U0001f446' and keeps the rest of the text.
 # When posts contain emojis that consist of one code (like the above) and not a combination of codes, then `get_emoji_meaning`
 # can be used to identify the meaning of the emoji and potentially replace it in the text to enrich the meaning of the post.
+# This script also identifies and tokenizes the hashtags in the post.
 
 
 def get_text_with_unicode_emojis(text):
