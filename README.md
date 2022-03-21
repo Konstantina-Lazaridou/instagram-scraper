@@ -87,7 +87,11 @@ The script is tested with Ubuntu 20.04 and `poetry` 0.1.0.
 * In order to process (the English) posts, you can run `process.py` for the files you downloaded before. They should be in user-text pairs in `json` format.
 * Replace the directory name (`/translated_data`) with your local one where the English posts are, and also `/clean_data` with where you want to save the preprocessed text.
 * In the header of `process.py` it is explained how the emojis are removed from the texts. No additional libraries are needed if you don't use `get_emoji_meaning`.
-* This script will remove emojis, new lines, will remove the `#` from the hashtags and simplify long hashtags without spaces, and will write the remaining non-empty posts in a new json file
+* This script will remove emojis, new lines, will remove the `#` from the hashtags and simplify long hashtags without spaces, and will write the remaining non-empty posts in a new json file.
+* This is what will be shown if you uncomment the print lines at the end of the script. You will see the post, its hashtags and the final clean text:
+
+![Post, hashtags and clean text](https://github.com/Konstantina-Lazaridou/instagram-scraper/blob/main/example_clean_text.jpg?raw=true)
+
 
 <!-- ## Tentative Roadmap
 
